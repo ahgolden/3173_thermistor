@@ -12,6 +12,10 @@ float thermistor2_resistance;
 float temperature1;
 float temperature2;
 
+float frozen_temp;
+int freeze_time;
+bool resp;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
